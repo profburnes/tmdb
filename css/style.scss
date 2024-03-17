@@ -1,0 +1,42 @@
+$primary: #032541;
+$secondary: #805BE7;
+$font: "Work Sans", "Open Sans", Tahoma;
+
+body {
+    font: 18px $font;
+    color: $primary;
+}
+
+.navbar {
+    text-transform: uppercase;
+    background: $primary !important;
+    .nav-link {
+        color: #FFF
+    }
+}
+
+.bg-dark {
+    background: $primary !important;
+    color: #FFF;
+    padding: 10px 0;
+}
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #CCC;
+    border: 0;
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+    p strong {
+        height: 100px;
+    }
+    &-image {
+        height: 300px;
+        overflow: hidden;
+    }
+}
+
+footer {
+    margin-top: 30px;
+}
